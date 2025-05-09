@@ -12,5 +12,5 @@ def echo():
     return f"Received: {data}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
-# Re-trigger Bandit scan for demo
+    app.run(debug=False)
+    # Just added this comment to trigger Bandit scan
