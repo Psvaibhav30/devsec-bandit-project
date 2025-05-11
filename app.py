@@ -14,3 +14,4 @@ def echo():
 if __name__ == '__main__':
     app.run(debug=False)
     # Just added this comment to trigger Bandit scan
+# Trigger Bandit scan demo again
