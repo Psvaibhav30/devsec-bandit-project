@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from DevSec!"
+    return "Hello from JAIN"
 
 @app.route('/echo', methods=['POST'])
 def echo():
@@ -12,7 +12,7 @@ def echo():
     return f"Received: {data}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
     #trigger
     #trigger bandit scan
 # Trigger Bandit scan demo again
